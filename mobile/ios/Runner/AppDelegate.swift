@@ -15,7 +15,7 @@ import UIKit
   ) -> Bool {
     // Required for flutter_local_notification
     if #available(iOS 10.0, *) {
-      UNUserNotificationCenter.current().delegate = self as? UNUserNotificationCenterDelegate
+      UNUserNotificationCenter.current().delegate = self
     }
 
     GeneratedPluginRegistrant.register(with: self)
@@ -55,6 +55,7 @@ import UIKit
     NativeSyncApiImpl.register(with: engine.registrar(forPlugin: NativeSyncApiImpl.name)!)
     ThumbnailApiSetup.setUp(binaryMessenger: engine.binaryMessenger, api: ThumbnailApiImpl())
     BackgroundWorkerFgHostApiSetup.setUp(binaryMessenger: engine.binaryMessenger, api: BackgroundWorkerApiImpl())
+    UploadApiSetup.setUp(binaryMessenger: engine.binaryMessenger, api: UploadApiImpl())
   }
   
   public static func cancelPlugins(with engine: FlutterEngine) {
