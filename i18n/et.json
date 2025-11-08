@@ -2142,7 +2142,7 @@
   "video_hover_setting_description": "Esita video eelvaade, kui hiirt selle kohal hõljutada. Isegi kui keelatud, saab taasesituse alustada taasesitusnupu kohal hõljutades.",
   "videos": "Videod",
   "videos_count": "{count, plural, one {# video} other {# videot}}",
-  "view": "Vaade",
+  "view": "Vaata",
   "view_album": "Vaata albumit",
   "view_all": "Vaata kõiki",
   "view_all_users": "Vaata kõiki kasutajaid",

@@ -1453,7 +1453,7 @@
   "oauth": "OAuth",
   "obtainium_configurator": "Настройка Obtainium",
   "obtainium_configurator_instructions": "Для установки и обновления Android приложения Immich напрямую из источников на GitHub (минуя магазины приложений) можно использовать Obtainium. Создайте новый API ключ и укажите архитектуру приложения для формирования ссылки для Obtainium.",
-  "ocr": "OCR",
+  "ocr": "Текст (OCR)",
   "official_immich_resources": "Официальные ресурсы Immich",
   "offline": "Недоступен",
   "offset": "Смещение",

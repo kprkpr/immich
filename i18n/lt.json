@@ -241,6 +241,7 @@
     "oauth_storage_quota_default_description": "Nustatoma appimties kvota GiB kai nėra nurodyta tvirtinime.",
     "oauth_timeout": "Užklausa viršijo laiko limitą",
     "oauth_timeout_description": "Laiko limitas užklausoms milisekundėmis",
+    "ocr_job_description": "Naudoti mašininį mokymąsi teksto atpažinimui nuotraukose",
     "password_enable_description": "Prisijungti su el. paštu ir slaptažodžiu",
     "password_settings": "Prisijungimas slaptažodžiu",
     "password_settings_description": "Tvarkyti prisijungimo slaptažodžiu nustatymus",
